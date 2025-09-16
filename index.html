@@ -682,8 +682,8 @@
             ideasResult.innerHTML = '';
 
             const systemPrompt = "You are an expert business automation consultant for a company called FlowForge. Your specialty is creating solutions using Google Apps Script, Google Workspace, Excel, and Power BI. When a user describes a manual business process or problem, you will provide 3 concise, actionable automation ideas that FlowForge could build for them. Each idea should have a clear title in bold (e.g., **Automated Data Entry**). Each idea should have a short description of the solution and its benefits (like saving time or reducing errors). Start your response with 'Here are a few ideas to automate your process:'.";
-            const apiKey = ""; // Canvas will provide this
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+            const apiKey = "AIzaSyBzNuR6fNV_YVzj8vaWtLH_MTr_izrMGOE"; // Canvas will provide this
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
             const payload = {
                 contents: [{
